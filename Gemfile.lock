@@ -149,7 +149,6 @@ GEM
       money (~> 6.12)
     money (6.13.7)
       i18n (>= 0.6.4, <= 2)
-    mysql2 (0.4.10)
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
@@ -162,6 +161,7 @@ GEM
       mimemagic (~> 0.3.0)
     paranoia (2.2.1)
       activerecord (>= 4.0, < 5.1)
+    pg (1.2.2)
     polyglot (0.3.5)
     premailer (1.11.1)
       addressable
@@ -347,7 +347,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
-  mysql2 (>= 0.3.18, < 0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
