@@ -44,11 +44,11 @@ test:
 #
 # You can use this database configuration with:
 #
-#   production:
-#     url: <%= ENV['DATABASE_URL'] %>
-#
 production:
-  <<: *default
-  database: mystore_production
-  username: mystore
-  password: <%= ENV['MYSTORE_DATABASE_PASSWORD'] %>
+  url: postgres://fuihwfrmwgwzjt:eaaccc068e25e94dc279f73ba47f80e6476df2ae96bbd53cbd205fbef038053f@ec2-54-174-221-35.compute-1.amazonaws.com:5432/d271ehu0hau2uc
+#
+# production:
+#   <<: *default
+#   database: d271ehu0hau2uc
+#   username: fuihwfrmwgwzjt
+#   password: eaaccc068e25e94dc279f73ba47f80e6476df2ae96bbd53cbd205fbef038053f
